@@ -9,7 +9,10 @@ $(document).ready(function() {
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS.load('landing', 'assets/particles.json', function() {});
-
+  particlesJS.load('particles-js', 'assets/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+  
   // Typing Text
   var element = document.getElementById('txt-rotate');
   var toRotate = element.getAttribute('data-rotate');
