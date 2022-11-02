@@ -1,7 +1,5 @@
 ### VALUES YOU SHOULD CHANGE ###
 
-# exclude: [vendor]
-
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
 title: Anvita Gupta
@@ -121,6 +119,7 @@ plugins:
 
 exclude:
   [
+    "vendor",
     "_assets",
     "Gemfile",
     "Gemfile.lock",
