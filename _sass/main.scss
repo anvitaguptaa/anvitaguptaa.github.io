@@ -312,7 +312,8 @@ a {
         colorEmail 1s linear forwards;
     }
     .social-svg {
-      fill: #d44638;
+      // fill: #d44638;
+      fill: #c3deff;
     }
   }
 
@@ -322,7 +323,7 @@ a {
         colorLinkedin 1s linear forwards;
     }
     .social-svg {
-      fill: #007bb6;
+      fill: #0077b5;
     }
   }
 
@@ -332,7 +333,7 @@ a {
         colorTwitter 1s linear forwards;
     }
     .social-svg {
-      fill: #1da1f2;
+      fill: #ced0ff;
     }
   }
 
@@ -343,15 +344,16 @@ a {
     }
   }
 
+  // CIRCLE OUTLINE
   @keyframes outWaveOut {
     from {
       // stroke: $text-color;
-      stroke: #000000;
+      stroke: #1f5ebc;
       stroke-dasharray: 510;
       stroke-width: 0.5rem;
     }
     to {
-      stroke: #1f5ebc8b;
+      stroke: #000000;
       stroke-dasharray: 83;
       stroke-width: 0.5rem;
     }
@@ -365,19 +367,19 @@ a {
 
   @keyframes colorEmail {
     to {
-      stroke: #b23121;
+      stroke: #c3deff;
     }
   }
 
   @keyframes colorLinkedin {
     to {
-      stroke: #007bb6;
+      stroke: #0077b5;
     }
   }
 
   @keyframes colorTwitter {
     to {
-      stroke: #1da1f2;
+      stroke: #ced0ff;
     }
   }
 }
@@ -396,15 +398,15 @@ a {
   }
 
   div[skill-type="language"] {
-    color: #e84a5f;
+    color: #141d4e;
   }
 
   div[skill-type="framework"] {
-    color: #ff847c;
+    color: #141d4edd;
   }
 
   div[skill-type="tool"] {
-    color: #fecea8;
+    color: #141d4eba;
   }
 
   div[skill-weight="1"] {
