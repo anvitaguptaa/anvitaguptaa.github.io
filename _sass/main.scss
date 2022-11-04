@@ -16,11 +16,13 @@ $font-weight-strong: 600;
 $text-color: rgb(0, 0, 0) !default;
 $bg-color: rgb(255, 255, 255);
 $card-bg-color: linear-gradient(
-  145deg,
-  rgba(255, 255, 255, 0.557) 15%,
+  5deg,
+  // rgba(122, 124, 255, 0.124) 15%,
+  rgba(255, 255, 255) 15%,
   rgb(255, 255, 255) 80%
 );
-$primary-color: #6082B6;
+// $primary-color: #6082B6;
+$primary-color: #1f5ebc;
 
 /* General */
 
@@ -109,7 +111,7 @@ a {
 .neumorphism-button {
   background: linear-gradient(
     145deg,
-    rgba(100, 100, 105, 0.15) 15%,
+    rgba(0, 0, 0, 0.15) 15%,
     rgba(33, 33, 33, 0.4) 80%
   );
   box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
@@ -128,8 +130,8 @@ a {
 }
 
 .neumorphism-card {
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 1),
-    inset -2px -2px 4px rgba(99, 99, 99, 1);
+  box-shadow: inset 2px 2px 4px rgb(0, 0, 0),
+    inset -2px -2px 4px rgb(0, 0, 0);
 }
 
 .neumorphism-card-big {
@@ -260,7 +262,8 @@ a {
 
     .circle {
       animation: outWaveOut 1s cubic-bezier(0.42, 0, 0.58, 1) forwards;
-      fill: none;
+      // fill: rgba(87, 121, 255, 0.235);
+      fill: #0000001e;
       stroke-dasharray: 40;
       transition: all 0.2s ease-in-out;
     }
@@ -287,12 +290,12 @@ a {
       .circle {
         animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
           colorBlackIcon 1s linear forwards;
-        fill: $text-color;
+        fill: #000;
         fill-opacity: 1;
       }
 
       .social-svg {
-        fill: #000;
+        fill: #6e5494
       }
 
       .label {
@@ -323,7 +326,7 @@ a {
     }
   }
 
-  .twitter:hover {
+  .resume:hover {
     .circle {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
         colorTwitter 1s linear forwards;
@@ -342,12 +345,13 @@ a {
 
   @keyframes outWaveOut {
     from {
-      stroke: $text-color;
+      // stroke: $text-color;
+      stroke: #000000;
       stroke-dasharray: 510;
       stroke-width: 0.5rem;
     }
     to {
-      stroke: $text-color;
+      stroke: #1f5ebc8b;
       stroke-dasharray: 83;
       stroke-width: 0.5rem;
     }
@@ -355,7 +359,7 @@ a {
 
   @keyframes colorBlackIcon {
     to {
-      stroke: #000;
+      stroke: rgb(100, 11, 135);
     }
   }
 
@@ -631,7 +635,7 @@ a {
 
   .black:hover {
     .social-svg {
-      fill: #000;
+      fill: rgb(0, 0, 0);
     }
   }
 

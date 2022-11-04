@@ -21,10 +21,10 @@ email: anvita.gupta@uwaterloo.ca
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
 github_username: anvitaguptaa
-codepen_username: exampleUser
-dev_username: exampleUser
-linkedin_username: exampleUser
-twitter_username: exampleUser
+codepen_username: 
+dev_username: 
+linkedin_username: anvita-gupta
+resume_link: Resume
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -53,7 +53,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+cv_download_link: https://www.dropbox.com/s/yeg0osp3ed4o830/Anvita-Gupta-Resume.pdf?dl=0
 
 # PROJECTS SECTION
 # show_projects_card:
