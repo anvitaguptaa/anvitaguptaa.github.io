@@ -391,22 +391,27 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  // white-space: 2rem;
+  border-spacing: 2rem;
 
   div {
-    padding: 0.2rem;
-    transition: opacity 0.5s;
+    padding-inline: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: opacity 0.25s;
+    // word-spacing: 1rem;
   }
 
   div[skill-type="language"] {
-    color: #141d4e;
+    color: #11173f;
   }
 
   div[skill-type="framework"] {
-    color: #141d4edd;
+    color: #3f518e;
   }
 
   div[skill-type="tool"] {
-    color: #141d4eba;
+    color: #5968b9;
   }
 
   div[skill-weight="1"] {
