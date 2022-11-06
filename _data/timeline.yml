@@ -17,25 +17,39 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: Ultimate Kronos Group
+  # title-url: https://www.ukg.com/
+  title-url: https://www.ukg.com/about-us/awards-and-recognition
+  date: September 2022 - Present
+  subtitle: DevOps Engineering Intern
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
-  timeline-side: right
+    - tag: Jenkins
+    - tag: Java
+    - tag: Kubernetes
+    - tag: Docker
+    - tag: PostgreSQL
+    - tag: Ansible
+    - tag: Terraform
+  timeline-side: left
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: Questrade Financial Group
+  # title-url: https://www.questrade.com/home
+  title-url: https://www.questrade.com/about-us/press-and-media
+  date: January 2022 - April 2022
+  subtitle: Software Engineering Intern
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+    - tag: Python
+    - tag: Perl
+    - tag: HTML
+    - tag: CSS
+    - tag: Flask
+    - tag: GCP
+    - tag: Docker
+    - tag: Jenkins
+    - tag: Shell Scripting
+    - tag: Parallel/Concurrent Programming
+    - tag: Microservice Architecture
+    - tag: API Development
   timeline-side: right
 
 - title: Super University

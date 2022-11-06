@@ -514,6 +514,7 @@ a {
   .flag-wrapper {
     position: relative;
     text-align: center;
+    // color: #000;
   }
 
   .flag {
@@ -537,7 +538,7 @@ a {
     }
 
     &:hover span {
-      letter-spacing: 0.05rem;
+      letter-spacing: 0.02rem;
       padding-right: 1.25rem;
     }
 
