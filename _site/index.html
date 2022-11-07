@@ -21,7 +21,6 @@
   <script src="/assets/js/app.min.js"></script>
 </head>
 
-
 <body>
   <div id="preloader">
     <div class="load">
@@ -31,22 +30,20 @@
       <hr />
     </div>
   </div>
-
-  <div id="particles-js"></div>
-  <!-- LANDING PAGE -->
   <div id="landing">
-    <div class="landing-title">
-      <img src="/assets/img/headshot.jpg" alt="Avatar" width="200" height="200">
-      <h1>Hi, I&#39;m
-        <span class="highlight-title">Anvita Gupta</span>
-      </h1>
-      <h1>
-        <span id="txt-rotate" data-period="400"
-          data-rotate='["Computer Science @ University of Waterloo", "Scroll down for more!"]'
-        >
-        </span>
-      </h1>
-      <div class="landing-icons">
+  <div class="landing-title">
+    <img src="/assets/img/headshot.jpg" alt="Avatar" width="200" height="200">
+    <h1>Hi, I&#39;m
+      <span class="highlight-title">Anvita Gupta</span>
+    </h1>
+    <h1>
+      <span id="txt-rotate" data-period="400"
+        data-rotate='["Computer Science @ University of Waterloo", "Scroll down for more!"]'
+      >
+      </span>
+    </h1>
+    <div class="landing-icons">
+      
         <a class="social-link email" aria-label="My E-Mail" href="mailto:anvita.gupta@uwaterloo.ca">
           <svg viewBox="0 0 200 200" class="circle">
             <circle cx="100" cy="100" r="80" />
@@ -58,7 +55,13 @@
           </div>
           <span class="label">E-Mail</span>
         </a>
+      
 
+      
+
+      
+
+      
         <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank"
           rel="noreferrer" href="https://www.linkedin.com/in/anvitagupta"
         >
@@ -72,6 +75,8 @@
           </div>
           <span class="label">LinkedIn</span>
         </a>
+      
+
       
         <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
           href="https://github.com/anvitaguptaa"
@@ -87,6 +92,8 @@
           <span class="label">GitHub</span>
         </a>
       
+
+      
         <a class="social-link resume" aria-label="My Resume" target="_blank"
           rel="noreferrer" href="https://www.dropbox.com/s/yeg0osp3ed4o830/Anvita-Gupta-Resume.pdf?dl=0"
         >
@@ -100,225 +107,236 @@
           </div>
           <span class="label">Resume</span>
         </a>
-      </div>
+      
     </div>
   </div>
+</div>
 
-  <!-- ABOUT SECTION -->
-  <!-- <div id="particles-js"></div> -->
-    <div class="layout">
+  <div class="layout">
+    <div id="particles-js"></div>
+    
       <section class="card neumorphism-card-big">
-        <!-- <div id="particles-js"></div> -->
         <h1 class="title">About Me</h1>
-        <p class="description" data-aos="fade-down">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>. You can also find me on <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-neumorphism/" target="_blank" rel="noreferrer">JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/neumorphism/" target="_blank" rel="noreferrer">Jekyll Themes</a>.</p>
+<p class="description" data-aos="fade-down">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>. You can also find me on <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-neumorphism/" target="_blank" rel="noreferrer">JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/neumorphism/" target="_blank" rel="noreferrer">Jekyll Themes</a>.</p>
 
       </section>
     
-  <!-- <div id="particles-js"></div> -->
-  <!-- SKILLS -->
-    <section class="card neumorphism-card-big">
-      <!-- <div id="particles-js"></div> -->
-      <h1 class="title">Skills</h1>
-        <div id="skills">
-          <input type="radio" id="all" name="filter" checked />
-          <label class="filter-button neumorphism-button" for="all">All</label>
-          <input type="radio" id="language" name="filter" />
-          <label class="filter-button neumorphism-button" for="language">Languages</label>
-          <input type="radio" id="framework" name="filter" />
-          <label class="filter-button neumorphism-button" for="framework">Technologies/Frameworks</label>
-          <input type="radio" id="tool" name="filter" />
-          <label class="filter-button neumorphism-button" for="tool">Tools</label>
-
-          <!-- LANGUAGES -->
-          <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-            Python
-          </div>
-
-          <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-            C++
-          </div>
-
-          <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-            C
-          </div>
-
-          <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-            HTML
-          </div>
-
-          <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-            CSS
-          </div>
-        
-          <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-            Perl
-          </div>
-        
-          <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-            Java
-          </div>
-        
-          <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-            XML
-          </div>
     
-          <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-            Bash
-          </div>
-        
-          <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-            Shell
-          </div>
-        
-          <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-            PostgreSQL
-          </div>
-        
-          <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-            Assembly (ARM, MIPS)
-          </div>
-        
-          <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
-            Pandas
-          </div>
-        
-          <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
-            Flask
-          </div>
-        
-          <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
-            CI/CD
-          </div>
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Skills</h1>
+<div id="skills">
+  <input type="radio" id="all" name="filter" checked />
+  <label class="filter-button neumorphism-button" for="all">All</label>
+  <input type="radio" id="language" name="filter" />
+  <label class="filter-button neumorphism-button" for="language">Languages</label>
+  <input type="radio" id="framework" name="filter" />
+  <label class="filter-button neumorphism-button" for="framework">Technologies/Frameworks</label>
+  <input type="radio" id="tool" name="filter" />
+  <label class="filter-button neumorphism-button" for="tool">Tools</label>
+
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      Python
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      C++
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      C
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      HTML
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      CSS
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      Perl
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      Java
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      XML
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      Bash
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      Shell
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      PostgreSQL
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      Assembly (ARM, MIPS)
+    </div>
+  
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      Pandas
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      Flask
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      CI/CD
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      RESTful APIs
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      ELK Stack
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      Selenium
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      Linux/UNIX
+    </div>
+  
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Git
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Jenkins
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Docker
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      GCP
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Jira
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Perforce
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Kubernetes
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Ansible
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Terraform
+    </div>
+  
+</div>
+
+      </section>
     
-          <!-- FRAMEWORKS -->
-          <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
-            RESTful APIs
-          </div>
-        
-          <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
-            ELK Stack
-          </div>
-        
-          <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
-            Selenium
-          </div>
-        
-          <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
-            Linux/UNIX
-          </div>
-        
-          <!-- TOOLS -->
-          <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-            Git
-          </div>
-        
-          <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-            Jenkins
-          </div>
-        
-          <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-            Docker
-          </div>
-        
-          <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-            GCP
-          </div>
     
-          <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-            Jira
-          </div>
-        
-          <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-            Perforce
-          </div>
-        
-          <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-            Kubernetes
-          </div>
-        
-          <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-            Ansible
-          </div>
-        
-          <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-            Terraform
-          </div>
-        </div>
-    </section>
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Education & Experience</h1>
+<p class="subtitle">
+  Take a look at my
+  <a class="highlight-link" href="https://www.dropbox.com/s/yeg0osp3ed4o830/Anvita-Gupta-Resume.pdf?dl=0" target="_blank" rel="noreferrer">
+    resume
+  </a>
+  for more information!
+</p>
 
-    <!-- EXPERIENCE -->
-    <section class="card neumorphism-card-big">
-      <!-- <div id="particles-js"></div> -->
-      <h1 class="title">Experience</h1>
-      <p class="subtitle">
-        Take a look at my
-        <a class="highlight-link" href="https://www.dropbox.com/s/yeg0osp3ed4o830/Anvita-Gupta-Resume.pdf?dl=0" target="_blank" rel="noreferrer">
-          resume
-        </a>
-        for more information!
-      </p>
-
-      <!-- <div id="particles-js"></div> -->
-      <div class="timeline-wrapper">
-        <ul class="timeline">
-
-          <!-- UKG -->
-          <li>
-            <div class="direction-l">
-              <div class="flag-wrapper">
-                <span class="hexagon"></span>
-                <span class="flag neumorphism-button" data-aos="zoom-in-right">
-                  <a href="https://www.ukg.com/about-us/awards-and-recognition" target="_blank" rel="noreferrer">
-                    <span>Ultimate Kronos Group</span>
-                  </a>
-                </span>
-                <span class="time-wrapper" data-aos="zoom-in-right">
-                  <span class="time neumorphism-card">September 2022 - Present</span>
-                </span>
-              </div>
-
-              <div class="desc neumorphism-card" data-aos="zoom-in-right">
-                <span style="font-weight: bolder;">DevOps Engineering Intern</span>
-                
-                <div class="tag-wrapper">
-                  <span style="color:#000;" class="tag neumorphism-card">Java</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">Jenkins</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">Kubernetes</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">Docker</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">PostgreSQL</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">Ansible</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">Terraform</span>
-                </div>
-            
-              </div>
+<div class="timeline-wrapper">
+  <ul class="timeline">
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://www.ukg.com/about-us/awards-and-recognition" target="_blank" rel="noreferrer">
+                  <span>Ultimate Kronos Group</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">September 2022 - Present</span>
+              </span>
             </div>
-          </li>
-          
-          <!-- QUESTRADE -->
-          <li>
-            <div class="direction-r">
-              <div class="flag-wrapper">
-                <span class="hexagon"></span>
-                <span class="flag neumorphism-button" data-aos="zoom-in-left">
-                  <a href="https://www.questrade.com/about-us/press-and-media" target="_blank" rel="noreferrer">
-                    <span>Questrade Financial Group</span>
-                  </a>
-                </span>
-                <span class="time-wrapper" data-aos="zoom-in-left">
-                  <span class="time neumorphism-card">January 2022 - April 2022</span>
-                </span>
-              </div>
-              
-              <div class="desc neumorphism-card" data-aos="zoom-in-left">
-                <span style="font-weight: bolder;">Software Engineering Intern</span>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              <span style="font-weight: bolder;">DevOps Engineering Intern</span>
               
                 <div class="tag-wrapper">
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Java</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Jenkins</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Kubernetes</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Docker</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">PostgreSQL</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Ansible</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Terraform</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left">
+                <a href="https://www.questrade.com/about-us/press-and-media" target="_blank" rel="noreferrer">
+                  <span>Questrade Financial Group</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">January 2022 - April 2022</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              <span style="font-weight: bolder;">Software Engineering Intern</span>
+              
+                <div class="tag-wrapper">
+                  
                   <span style="color:#000;" class="tag neumorphism-card">Python</span>
                   
                   <span style="color:#000;" class="tag neumorphism-card">Perl</span>
@@ -342,284 +360,368 @@
                   <span style="color:#000;" class="tag neumorphism-card">Microservice Architecture</span>
                   
                   <span style="color:#000;" class="tag neumorphism-card">API Development</span>
+                  
                 </div>
-              </div>
+              
             </div>
-          </li>
-          
-          <!-- OPENTEXT -->
-          <li>
-            <div class="direction-l">
-              <div class="flag-wrapper">
-                <span class="hexagon"></span>
-                <span class="flag neumorphism-button" data-aos="zoom-in-right">
-                  <a href="https://www.opentext.com/about/press-release-listing" target="_blank" rel="noreferrer">
+          </div>
+        </li>
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://www.opentext.com/about/press-release-listing" target="_blank" rel="noreferrer">
                   <span>OpenText Corporation</span>
-                  </a>
-                </span>
-                <span class="time-wrapper" data-aos="zoom-in-right">
-                  <span class="time neumorphism-card">May 2021 - August 2021</span>
-                </span>
-              </div>
-            
-              <div class="desc neumorphism-card" data-aos="zoom-in-right">
-                <span style="font-weight: bolder;">Software Developer Intern</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">May 2021 - August 2021</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              <span style="font-weight: bolder;">Software Developer Intern</span>
               
                 <div class="tag-wrapper">
-                  <span style="color:#000;" class="tag neumorphism-card">Python</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">Perl</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">XML</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">Pandas</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">NumPy</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">Selenium</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">YouTube API</span>
-                
-                  <span style="color:#000;" class="tag neumorphism-card">Shell Scripting</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Python</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Perl</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">XML</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Pandas</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">NumPy</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Selenium</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">YouTube API</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Shell Scripting</span>
+                  
                 </div>
-              </div>
+              
             </div>
-          </li>
+          </div>
+        </li>
       
-          <!-- UKECHAIN -->
-          <li>
-            <div class="direction-r">
-              <div class="flag-wrapper">
-                <span class="hexagon"></span>
-                <span class="flag neumorphism-button" data-aos="zoom-in-left">
-                  <a href="" target="_blank" rel="noreferrer">
-                    <span>Ukechain Inc.</span>
-                  </a>
-                </span>
-                <span class="time-wrapper" data-aos="zoom-in-left">
-                  <span class="time neumorphism-card">June 2019 - August 2019</span>
-                </span>
-              </div>
-            
-              <div class="desc neumorphism-card" data-aos="zoom-in-left">
-                <span style="font-weight: bolder;">Technology Analyst Intern</span>
-                
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left">
+                <a href="" target="_blank" rel="noreferrer">
+                  <span>Ukechain Inc.</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">June 2019 - August 2019</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              <span style="font-weight: bolder;">Technology Analyst Intern</span>
+              
                 <div class="tag-wrapper">
+                  
                   <span style="color:#000;" class="tag neumorphism-card">MS Office Suite</span>
                   
                   <span style="color:#000;" class="tag neumorphism-card">SDLC</span>
+                  
                 </div>
-              </div>
+              
             </div>
-          </li>
-          
-          <!-- HARVARD -->
-          <li>
-            <div class="direction-l">
-              <div class="flag-wrapper">
-                <span class="hexagon"></span>
-                <span class="flag neumorphism-button" data-aos="zoom-in-right">
-                  <a href="https://summer.harvard.edu/about-harvard-summer-school/mission/" target="_blank" rel="noreferrer">
-                    <span>Harvard Summer School</span>
-                  </a>
-                </span>
-                <span class="time-wrapper" data-aos="zoom-in-right">
-                  <span class="time neumorphism-card">July 2019 - August 2019</span>
-                </span>
-              </div>
-            
-              <div class="desc neumorphism-card" data-aos="zoom-in-right">
-                <span style="font-weight: bolder;">Student</span>
-                
-                  <div class="tag-wrapper">
-                    <span style="color:#000;" class="tag neumorphism-card">Microeconomic Theory</span>
-                    
-                    <span style="color:#000;" class="tag neumorphism-card">Invention, Innovation, & Global Economy</span> 
-                  </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    
-    <!-- PROJECTS -->
-    <section class="card neumorphism-card-big">
-      <h1 class="title">Projects</h1>
+          </div>
+        </li>
       
-      <div class="projects-wrapper">
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://summer.harvard.edu/about-harvard-summer-school/mission/" target="_blank" rel="noreferrer">
+                  <span>Harvard Summer School</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">July 2019 - August 2019</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              <span style="font-weight: bolder;">Student</span>
+              
+                <div class="tag-wrapper">
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Microeconomic Theory</span>
+                  
+                  <!-- style="color:#15376a;" style="color: #1f5ebc;" -->
+                    <span style="color:#000;" class="tag neumorphism-card">Invention, Innovation, & Global Economy</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
 
-        <!-- anvitaguptaa.github.io -->
+      
+    
+  </ul>
+</div>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <!--  -->
+
+
+  <h1 class="title">Projects</h1>
+  
+
+  
+
+  <div class="projects-wrapper">
+    
+      
         <div class="project neumorphism-card" data-aos="zoom-in-down">
           <div class="name-link-wrapper">
             <h3>anvitaguptaa.github.io</h3>
             <div class="links">
+              
+                
             </div>
           </div>
-          
           <p class="project-desc">My personal website, built with Jekyll and powered by GitHub Pages.</p>
+          
           <a class="highlight-link" href="https://github.com/anvitaguptaa/anvitaguptaa.github.io" target="_blank" rel="noreferrer">
             GitHub
           </a>
-
-          <div class="tag-wrapper">
-            <span class="tag neumorphism-card">css</span>
           
-            <span class="tag neumorphism-card">html</span>
+            <div class="tag-wrapper">
+              
+                <span class="tag neumorphism-card">css</span>
+              
+                <span class="tag neumorphism-card">html</span>
+              
+                <span class="tag neumorphism-card">javascript</span>
+              
+                <span class="tag neumorphism-card">jekyll</span>
+              
+                <span class="tag neumorphism-card">personal-website</span>
+              
+            </div>
           
-            <span class="tag neumorphism-card">javascript</span>
-          
-            <span class="tag neumorphism-card">jekyll</span>
-          
-            <span class="tag neumorphism-card">personal-website</span>
-          </div>
         </div>
       
-        <!-- pandas workshop -->
+    
+      
         <div class="project neumorphism-card" data-aos="zoom-in-down">
           <div class="name-link-wrapper">
             <h3>pandas-workshop</h3>
             <div class="links">
+              
+                
             </div>
           </div>
-          
           <p class="project-desc">Fall 2022 University of Waterloo Data Science Club Pandas Workshop session, hosted by Anvita Gupta</p>
+          
           <a class="highlight-link" href="https://github.com/anvitaguptaa/pandas-workshop" target="_blank" rel="noreferrer">
             GitHub
           </a>
           
-          <div class="tag-wrapper">
-            <span class="tag neumorphism-card">data-science</span>
+            <div class="tag-wrapper">
+              
+                <span class="tag neumorphism-card">data-science</span>
+              
+                <span class="tag neumorphism-card">pandas</span>
+              
+                <span class="tag neumorphism-card">python</span>
+              
+                <span class="tag neumorphism-card">workshop</span>
+              
+            </div>
           
-            <span class="tag neumorphism-card">pandas</span>
-          
-            <span class="tag neumorphism-card">python</span>
-          
-            <span class="tag neumorphism-card">workshop</span>
-          </div>
         </div>
       
-        <!-- SnakesAndLadders -->
+    
+      
         <div class="project neumorphism-card" data-aos="zoom-in-down">
           <div class="name-link-wrapper">
             <h3>SnakesAndLadders</h3>
             <div class="links">
+              
+                
             </div>
           </div>
-          
           <p class="project-desc">Snakes and Ladders game implementation in Java.</p>
+          
           <a class="highlight-link" href="https://github.com/anvitaguptaa/SnakesAndLadders" target="_blank" rel="noreferrer">
             GitHub
           </a>
           
-          <div class="tag-wrapper">
-            <span class="tag neumorphism-card">java</span>
+            <div class="tag-wrapper">
               
-            <span class="tag neumorphism-card">object-oriented-programming</span>
+                <span class="tag neumorphism-card">java</span>
+              
+                <span class="tag neumorphism-card">object-oriented-programming</span>
+              
+                <span class="tag neumorphism-card">xml</span>
+              
+            </div>
           
-            <span class="tag neumorphism-card">xml</span>
-          </div>
         </div>
       
-        <!-- recommender-system -->
+    
+      
         <div class="project neumorphism-card" data-aos="zoom-in-down">
           <div class="name-link-wrapper">
             <h3>recommender-system</h3>
             <div class="links">
+              
+                
             </div>
           </div>
-          
           <p class="project-desc">A recommender system machine learning application to develop personalized user playlists using the Spotify Web API.</p>
+          
           <a class="highlight-link" href="https://github.com/anvitaguptaa/recommender-system" target="_blank" rel="noreferrer">
             GitHub
           </a>
           
-          <div class="tag-wrapper">
-            <span class="tag neumorphism-card">machine-learning</span>
+            <div class="tag-wrapper">
+              
+                <span class="tag neumorphism-card">machine-learning</span>
+              
+                <span class="tag neumorphism-card">python</span>
+              
+                <span class="tag neumorphism-card">spotify-api</span>
+              
+                <span class="tag neumorphism-card">sql</span>
+              
+            </div>
           
-            <span class="tag neumorphism-card">python</span>
-          
-            <span class="tag neumorphism-card">spotify-api</span>
-          
-            <span class="tag neumorphism-card">sql</span>
-          </div>
         </div>
       
-        <!-- stocks-scraper -->
+    
+      
         <div class="project neumorphism-card" data-aos="zoom-in-down">
           <div class="name-link-wrapper">
             <h3>stocks-scraper</h3>
             <div class="links">
+              
+                
             </div>
           </div>
-          
           <p class="project-desc">A Python Flask web application, using multithreaded queues to web scrape and return stock ticker information.</p>
+          
           <a class="highlight-link" href="https://github.com/anvitaguptaa/stocks-scraper" target="_blank" rel="noreferrer">
             GitHub
           </a>
           
-          <div class="tag-wrapper">
-            <span class="tag neumorphism-card">css</span>
+            <div class="tag-wrapper">
               
-            <span class="tag neumorphism-card">flask</span>
+                <span class="tag neumorphism-card">css</span>
+              
+                <span class="tag neumorphism-card">flask</span>
+              
+                <span class="tag neumorphism-card">html</span>
+              
+                <span class="tag neumorphism-card">multithreading</span>
+              
+                <span class="tag neumorphism-card">python</span>
+              
+                <span class="tag neumorphism-card">web-application</span>
+              
+            </div>
           
-            <span class="tag neumorphism-card">html</span>
-          
-            <span class="tag neumorphism-card">multithreading</span>
-          
-            <span class="tag neumorphism-card">python</span>
-          
-            <span class="tag neumorphism-card">web-application</span>
-          </div>
         </div>
-      </div>
-    </section>
+      
     
-    <!-- Contact -->
-    <section class="card neumorphism-card-big">
-      <h1 class="title">Contact</h1>
-      <p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.</p>
-
-      <div class="contact-icons">
-        
-        <a class="social-link" aria-label="My E-Mail" href="mailto:anvita.gupta@uwaterloo.ca">
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope"></use>
-            </svg>
-          </div>
-        </a>
-  
-        <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
-          href="https://github.com/anvitaguptaa">
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
-            </svg>
-          </div>
-        </a>
-        
-        <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anvitagupta">
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#linkedin-in"></use>
-            </svg>
-          </div>
-        </a>
-
-        <a class="social-link resume" aria-label="My Resume" target="_blank" rel="noreferrer"
-          href="https://www.dropbox.com/s/yeg0osp3ed4o830/Anvita-Gupta-Resume.pdf?dl=0">
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#file-alt"></use>
-            </svg>
-          </div>
-        </a>
-      </div>
-    </section>
   </div>
 
-<footer class="footer">
+
+
+
+      </section>
+    
+    
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Contact</h1>
+<p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.</p>
+
+<div class="contact-icons">
+  
+  <a class="social-link" aria-label="My E-Mail" href="mailto:anvita.gupta@uwaterloo.ca">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+  <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+    href="https://github.com/anvitaguptaa">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+
+  
+
+  
+  <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer"
+    href="https://www.linkedin.com/in/anvitagupta">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#linkedin-in"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+  <a class="social-link resume" aria-label="My Resume" target="_blank" rel="noreferrer"
+    href="https://www.dropbox.com/s/yeg0osp3ed4o830/Anvita-Gupta-Resume.pdf?dl=0">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#twitter"></use>
+      </svg>
+    </div>
+  </a>
+  
+</div>
+
+    </section>
+    
+  </div>
+  <footer class="footer">
   <p>
     &copy; 2022 Designed by
     <a class="highlight-link" href="https://github.com/anvitaguptaa" target="_blank" rel="noreferrer">
@@ -639,6 +741,7 @@
 </footer>
 
 <!-- Google Analytics -->
+
 <script>
   var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
   if (dnt != "1" && dnt != "yes") {
@@ -665,5 +768,8 @@
     ga("send", "pageview");
   }
 </script>
+
+
+  <div id="particles-js"></div>
 </body>
 </html>
