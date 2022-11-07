@@ -71,7 +71,7 @@ a {
   box-sizing: border-box;
   color: $primary-color;
   display: inline-block;
-  padding: 0.125rem 0.125rem;
+  // padding: 0.125rem 0.125rem;
   transition: all 0.2s ease-in-out;
 
   &:hover {
@@ -111,18 +111,19 @@ a {
 .neumorphism-button {
   background: linear-gradient(
     145deg,
-    rgba(0, 0, 0, 0.15) 15%,
-    rgba(33, 33, 33, 0.4) 80%
+    rgba(209, 209, 209, 0.15) 10%,
+    #00000023
   );
   box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
     4px 4px 2px 0 rgba(0, 0, 0, 0.4);
+
 }
 
 @mixin neumorphism-button-pressed {
   background: linear-gradient(
     150deg,
-    rgba(20, 20, 20, 0.4) 10%,
-    rgba(115, 115, 115, 0.15) 80%
+    #00000023,
+    rgba(209, 209, 209, 0.15) 90%
   );
   box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4),
     -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4),
@@ -130,8 +131,10 @@ a {
 }
 
 .neumorphism-card {
-  box-shadow: inset 2px 2px 4px rgb(0, 0, 0),
-    inset -2px -2px 4px rgb(0, 0, 0);
+  background-color: $bg-color;
+  box-shadow: inset 1.5px 1.5px 3px rgb(0, 0, 0),
+    inset -1.5px -1.5px 3px rgb(0, 0, 0);
+  
 }
 
 .neumorphism-card-big {
@@ -514,14 +517,15 @@ a {
   .flag-wrapper {
     position: relative;
     text-align: center;
-    // color: #000;
   }
 
   .flag {
-    background: $bg-color;
+    // background: #1f5ebc12;
+    background: #1f5ebc0f;
     border-radius: 0.5rem;
     font-weight: $font-weight-strong;
     padding: 0.25rem 0.5rem;
+    
 
     span {
       position: relative;
@@ -544,6 +548,7 @@ a {
 
     &:hover span:after {
       opacity: 1;
+      font-weight: bold;
       right: 0;
     }
   }
@@ -556,14 +561,15 @@ a {
   }
 
   .time {
-    background: $bg-color;
     border-radius: 0.5rem;
     display: inline-block;
     padding: .6rem;
+    box-shadow: inset 1px 1px 2px #1f5ebc,
+    inset -1px -1px 2px #15376a;
   }
 
   .desc {
-    background: $bg-color;
+    background: #00000009;
     border-radius: 1rem;
     margin: 1em 0 0 0;
     padding: 0.75em;

@@ -23,8 +23,8 @@
   date: September 2022 - Present
   subtitle: DevOps Engineering Intern
   tags:
-    - tag: Jenkins
     - tag: Java
+    - tag: Jenkins
     - tag: Kubernetes
     - tag: Docker
     - tag: PostgreSQL
@@ -52,24 +52,29 @@
     - tag: API Development
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+- title: OpenText Corporation
+  title-url: https://www.opentext.com/about/press-release-listing
+  date: May 2021 - August 2021
+  subtitle: Software Developer Intern
+  tags:
+    - tag: Python
+    - tag: Perl
+    - tag: XML
+    - tag: Pandas
+    - tag: NumPy
+    - tag: Selenium
+    - tag: YouTube API
+    - tag: Shell Scripting
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
-  tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+- title: Ukechain Inc.
+  title-url: 
+  date: June 2019 - August 2019
+  subtitle: Technology Analyst Intern
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Harvard Summer School
+  title-url: https://summer.harvard.edu/about-harvard-summer-school/mission/
+  date: July 2019 - August 2019
+  subtitle: Student
   timeline-side: left
