@@ -69,12 +69,18 @@
 
 - title: Ukechain Inc.
   title-url: 
+  tags:
+    - tag: MS Office Suite
+    - tag: SDLC
   date: June 2019 - August 2019
   subtitle: Technology Analyst Intern
   timeline-side: right
 
 - title: Harvard Summer School
   title-url: https://summer.harvard.edu/about-harvard-summer-school/mission/
+  tags:
+    - tag: Microeconomic Theory 
+    - tag: Research in Technological Advancements 
   date: July 2019 - August 2019
   subtitle: Student
   timeline-side: left
