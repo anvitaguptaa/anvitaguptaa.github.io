@@ -59,7 +59,7 @@ cv_download_link: https://www.dropbox.com/s/yeg0osp3ed4o830/Anvita-Gupta-Resume.
 # show_projects_card:
 # > setting this to true, will display the Projects section
 # > setting this to false, will omit the Projects section
-show_projects_card: false
+show_projects_card: true
 # show_projects:
 # > setting this to true, will display your listed projects in _data/projects.yml
 # > setting this to false, will omit your listed projects
