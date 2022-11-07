@@ -115,11 +115,11 @@ function watchMarkup() {
 }
 
 function watchScripts() {
-  gulp.watch([ '_js/*.js' ], scripts).on('change', browserSync.reload);
+  gulp.watch([ '_js/*.js' ], scripts);
 }
 
 function watchStyles() {
-  gulp.watch([ '_sass/*.scss' ], styles).on('change', browserSync.reload);
+  gulp.watch([ '_sass/*.scss' ], styles);
 }
 
 function watch() {
