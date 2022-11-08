@@ -6,29 +6,29 @@
 #   weight: 5
 
 - name: Git
-  weight: 3
+  weight: 2
 
 - name: Jenkins
-  weight: 3
+  weight: 2
 
 - name: Docker
-  weight: 3
+  weight: 2
 
 - name: GCP
-  weight: 3
+  weight: 2
 
 - name: Jira
-  weight: 3
+  weight: 2
 
 - name: Perforce
-  weight: 3
+  weight: 2
 
 - name: Kubernetes
-  weight: 3
+  weight: 2
 
 - name: Ansible
-  weight: 3
+  weight: 2
 
 - name: Terraform
-  weight: 3
+  weight: 2
 

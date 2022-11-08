@@ -6,37 +6,37 @@
 #   weight: 5
 
 - name: Python
-  weight: 3
+  weight: 2
 
 - name: C++
-  weight: 3
+  weight: 2
 
 - name: C
-  weight: 3
+  weight: 2
 
 - name: HTML
-  weight: 3
+  weight: 2
 
 - name: CSS
-  weight: 3
+  weight: 2
 
 - name: Perl
-  weight: 3
+  weight: 2
 
 - name: Java
-  weight: 3
+  weight: 2
 
 - name: XML
-  weight: 3
+  weight: 2
 
 - name: Bash
-  weight: 3
+  weight: 2
 
 - name: Shell
-  weight: 3
+  weight: 2
 
 - name: PostgreSQL
-  weight: 3
+  weight: 2
 
 - name: Assembly (ARM, MIPS)
-  weight: 3
+  weight: 2

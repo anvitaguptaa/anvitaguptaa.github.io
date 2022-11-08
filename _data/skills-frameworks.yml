@@ -6,25 +6,25 @@
 #   weight: 5
 
 - name: Pandas
-  weight: 3
+  weight: 2
 
 - name: Flask
-  weight: 3
+  weight: 2
 
 - name: CI/CD
-  weight: 3
+  weight: 2
 
 - name: RESTful APIs
-  weight: 3
+  weight: 2
 
 - name: ELK Stack
-  weight: 3
+  weight: 2
 
 - name: Selenium
-  weight: 3
+  weight: 2
 
 - name: Linux/UNIX
-  weight: 3
+  weight: 2
 
 # - name: React
 #   weight: 4
@@ -36,7 +36,7 @@
 #   weight: 2
 
 # - name: Express
-#   weight: 3
+#   weight: 2
 
 # - name: Django
 #   weight: 1
