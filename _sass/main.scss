@@ -49,12 +49,6 @@ img {
   margin-right: auto;    
 }
 
-// .center {
-//   display: block;
-//   margin-left: auto;
-//   margin-right: auto;
-//   width: 50%;
-// }
 body {
   height: 100%;
 }
@@ -112,18 +106,22 @@ a {
   border-radius: 2rem;
   margin: 3rem 0;
   padding: 1rem 2rem;
+
 }
 
 .layout .card .title {
+  padding-bottom: 0.5rem;
   text-align: center;
   position: relative;
 }
 
 .layout .card .subtitle {
+  // padding-top: 0.5rem;
   text-align: center;
 }
 
 .layout .card .description {
+  // padding-top: 0.5rem;
   text-align: justify;
 }
 
@@ -135,7 +133,6 @@ a {
   );
   box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
     4px 4px 2px 0 rgba(0, 0, 0, 0.4);
-
 }
 
 @mixin neumorphism-button-pressed {
@@ -413,15 +410,13 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  // white-space: 2rem;
   border-spacing: 2rem;
-
+  
   div {
     padding-inline: 0.7rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     transition: opacity 0.25s;
-    // word-spacing: 1rem;
   }
 
   div[skill-type="language"] {
@@ -442,8 +437,8 @@ a {
   }
 
   div[skill-weight="2"] {
-    font-size: 1.60rem;
-    line-height: 0.75rem;
+    font-size: 1.75rem;
+    line-height: 0.50rem;
   }
 
   div[skill-weight="3"] {
@@ -641,7 +636,7 @@ a {
 .contact-icons {
   display: flex;
   justify-content: center;
-
+  margin-top: -0.4rem;
   .social-link {
     position: relative;
     height: 3rem;
@@ -676,7 +671,7 @@ a {
 
   .linkedin:hover {
     .social-svg {
-      fill: #007bb6;
+      fill: #000000;
     }
   }
 
@@ -718,14 +713,15 @@ a {
   }
 
   #skills {
+    margin-bottom: 1rem;
     div[skill-weight="1"] {
       font-size: 1rem;
       line-height: 0rem;
     }
 
     div[skill-weight="2"] {
-      font-size: 2rem;
-      line-height: 1rem;
+      font-size: 2.4rem;
+      line-height: 1.4rem;
     }
 
     div[skill-weight="3"] {
@@ -756,7 +752,7 @@ a {
         letter-spacing: 0.06rem;
       }
     }
-
+    
     @mixin filter-out {
       height: 0;
       margin: 0;

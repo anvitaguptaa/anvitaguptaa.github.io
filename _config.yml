@@ -33,7 +33,8 @@ resume_link: Resume
 show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
-about_me_description: 
+about_me_description: I’m an ambitious Software Developer who actively seeks out creative solutions to everyday problems. Throughout my past 3 internships, I’ve acquired a particular set of skills which are a nightmare for complex bugs and coding problems.<br><br>Adapting to various work environments, effectively identifying and resolving issues, and strong collaboration skills have been striking features of my working style. Alongside my prior experience working in Data Science, Software Engineering, and DevOps Engineering roles, I am always looking to develop my skills and learn something new!
+# about_me_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>. You can also find me on <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-neumorphism/" target="_blank" rel="noreferrer">JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/neumorphism/" target="_blank" rel="noreferrer">Jekyll Themes</a>.
 
 # SKILLS SECTION
 # show_skills_card:
