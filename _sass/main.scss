@@ -121,7 +121,7 @@ a {
 
 .layout .card .description {
   // padding-top: 0.5rem;
-  text-align: justify;
+  text-align: center;
 }
 
 .neumorphism-button {
@@ -416,6 +416,7 @@ a {
     padding-top: 1rem;
     padding-bottom: 1rem;
     transition: opacity 0.25s;
+    white-space: nowrap;
   }
 
   div[skill-type="language"] {
