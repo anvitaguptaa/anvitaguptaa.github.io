@@ -1,6 +1,6 @@
 # anvitaguptaa.github.io
 
-My personal website, built with Jekyll and powered by GitHub Pages.
+My personal website, built with Jekyll and powered by GitHub Pages. Can be accessed [here](https://anvitaguptaa.github.io/).
 
 ## Local development
 ### Installations:
