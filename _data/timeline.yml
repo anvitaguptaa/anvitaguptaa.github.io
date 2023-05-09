@@ -38,7 +38,7 @@
     - tag: PostgreSQL
     - tag: Ansible
     - tag: Terraform
-  timeline-side: right
+  timeline-side: left
 
 - title: Questrade Financial Group
   # title-url: https://www.questrade.com/home
@@ -58,7 +58,7 @@
     - tag: Parallel/Concurrent Programming
     - tag: Microservice Architecture
     - tag: API Development
-  timeline-side: left
+  timeline-side: right
 
 - title: OpenText Corporation
   title-url: https://www.opentext.com/about/press-release-listing
@@ -73,7 +73,7 @@
     - tag: Selenium
     - tag: YouTube API
     - tag: Shell Scripting
-  timeline-side: right
+  timeline-side: left
 
 - title: Ukechain Inc.
   title-url: 
@@ -82,7 +82,7 @@
     - tag: Software Development Life Cycle
   date: June 2019 - August 2019
   subtitle: Technology Analyst Intern
-  timeline-side: left
+  timeline-side: right
 
 - title: Harvard Summer School
   title-url: https://summer.harvard.edu/about-harvard-summer-school/mission/
@@ -91,4 +91,4 @@
     - tag: Invention, Innovation, & the Global Economy
   date: July 2019 - August 2019
   subtitle: Student
-  timeline-side: right
+  timeline-side: left
