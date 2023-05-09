@@ -20,7 +20,15 @@
 - title: Ultimate Kronos Group
   # title-url: https://www.ukg.com/
   title-url: https://www.ukg.com/about-us/awards-and-recognition
-  date: September 2022 - Present
+  date: May 2023 - Present
+  subtitle: Software Engineering Intern
+  tags:
+  timeline-side: left
+
+- title: Ultimate Kronos Group
+  # title-url: https://www.ukg.com/
+  title-url: https://www.ukg.com/about-us/awards-and-recognition
+  date: September 2022 - December 2022
   subtitle: DevOps Engineering Intern
   tags:
     - tag: Java
@@ -30,7 +38,7 @@
     - tag: PostgreSQL
     - tag: Ansible
     - tag: Terraform
-  timeline-side: left
+  timeline-side: right
 
 - title: Questrade Financial Group
   # title-url: https://www.questrade.com/home
@@ -50,7 +58,7 @@
     - tag: Parallel/Concurrent Programming
     - tag: Microservice Architecture
     - tag: API Development
-  timeline-side: right
+  timeline-side: left
 
 - title: OpenText Corporation
   title-url: https://www.opentext.com/about/press-release-listing
@@ -65,7 +73,7 @@
     - tag: Selenium
     - tag: YouTube API
     - tag: Shell Scripting
-  timeline-side: left
+  timeline-side: right
 
 - title: Ukechain Inc.
   title-url: 
@@ -74,7 +82,7 @@
     - tag: Software Development Life Cycle
   date: June 2019 - August 2019
   subtitle: Technology Analyst Intern
-  timeline-side: right
+  timeline-side: left
 
 - title: Harvard Summer School
   title-url: https://summer.harvard.edu/about-harvard-summer-school/mission/
@@ -83,4 +91,4 @@
     - tag: Invention, Innovation, & the Global Economy
   date: July 2019 - August 2019
   subtitle: Student
-  timeline-side: left
+  timeline-side: right
