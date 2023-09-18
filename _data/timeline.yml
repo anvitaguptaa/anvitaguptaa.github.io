@@ -20,7 +20,7 @@
 - title: Ultimate Kronos Group
   # title-url: https://www.ukg.com/
   title-url: https://www.ukg.com/about-us/awards-and-recognition
-  date: May 2023 - Present
+  date: May 2023 - Aug 2023
   subtitle: Software Engineering Intern
   tags:
     - tag: RabbitMQ
@@ -39,13 +39,12 @@
     - tag: JavaScript
     - tag: GCP
     - tag: Docker
-    
   timeline-side: left
 
 - title: Ultimate Kronos Group
   # title-url: https://www.ukg.com/
   title-url: https://www.ukg.com/about-us/awards-and-recognition
-  date: September 2022 - December 2022
+  date: Sept 2022 - Dec 2022
   subtitle: DevOps Engineering Intern
   tags:
     - tag: Java
@@ -55,12 +54,12 @@
     - tag: PostgreSQL
     - tag: Ansible
     - tag: Terraform
-  timeline-side: left
+  timeline-side: right
 
 - title: Questrade Financial Group
   # title-url: https://www.questrade.com/home
   title-url: https://www.questrade.com/about-us/press-and-media
-  date: January 2022 - April 2022
+  date: Jan 2022 - April 2022
   subtitle: Software Engineering Intern
   tags:
     - tag: Python
@@ -75,11 +74,11 @@
     - tag: Parallel/Concurrent Programming
     - tag: Microservice Architecture
     - tag: API Development
-  timeline-side: right
+  timeline-side: left
 
 - title: OpenText Corporation
   title-url: https://www.opentext.com/about/press-release-listing
-  date: May 2021 - August 2021
+  date: May 2021 - Aug 2021
   subtitle: Software Developer Intern
   tags:
     - tag: Python
@@ -90,7 +89,7 @@
     - tag: Selenium
     - tag: YouTube API
     - tag: Shell Scripting
-  timeline-side: left
+  timeline-side: right
 
 - title: Ukechain Inc.
   title-url: 
@@ -99,13 +98,13 @@
     - tag: Software Development Life Cycle
   date: June 2019 - August 2019
   subtitle: Technology Analyst Intern
-  timeline-side: right
+  timeline-side: left
 
 - title: Harvard Summer School
   title-url: https://summer.harvard.edu/about-harvard-summer-school/mission/
   tags:
     - tag: Microeconomic Theory 
     - tag: Invention, Innovation, & the Global Economy
-  date: July 2019 - August 2019
+  date: July 2019 - Aug 2019
   subtitle: Student
-  timeline-side: left
+  timeline-side: right
