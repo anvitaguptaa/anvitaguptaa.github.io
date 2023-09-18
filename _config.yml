@@ -104,6 +104,7 @@ projects:
     # projects: A list of the repository names you want to exclude from the listing.
     projects:
       - bible-extension
+      - MarkManager
     # - repo1-to-be-excluded
     # - repo2-to-be-excluded
 
