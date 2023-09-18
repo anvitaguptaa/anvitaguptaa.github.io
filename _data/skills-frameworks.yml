@@ -11,26 +11,17 @@
 - name: Flask
   weight: 2
 
-- name: CI/CD
-  weight: 2
-
-- name: RESTful APIs
-  weight: 2
-
-- name: ELK Stack
-  weight: 2
-
-- name: Selenium
-  weight: 2
-
 - name: Linux/UNIX
   weight: 2
 
-# - name: React
-#   weight: 4
+- name: Node
+  weight: 2
 
-# - name: Node
-#   weight: 1
+- name: Spring Boot
+  weight: 2
+
+- name: Angular
+  weight: 2
 
 # - name: Flutter
 #   weight: 2
@@ -40,9 +31,6 @@
 
 # - name: Django
 #   weight: 1
-
-# - name: Spring
-#   weight: 2
 
 # - name: Rails
 #   weight: 4

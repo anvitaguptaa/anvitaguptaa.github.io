@@ -32,3 +32,35 @@
 - name: Terraform
   weight: 2
 
+- name: Apache Ant
+  weight: 2
+
+- name: Artifactory
+  weight: 2
+
+- name: Grafana
+  weight: 2
+
+- name: InfluxDB
+  weight: 2
+
+- name: Azure
+  weight: 2
+
+- name: Kubernetes
+  weight: 2
+
+- name: Postman
+  weight: 2
+
+- name: Gradle
+  weight: 2
+
+- name: Maven
+  weight: 2
+
+- name: RabbitMQ
+  weight: 2
+
+- name: GitHub Actions
+  weight: 2
