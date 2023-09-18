@@ -47,9 +47,6 @@
 - name: Azure
   weight: 2
 
-- name: Kubernetes
-  weight: 2
-
 - name: Postman
   weight: 2
 
